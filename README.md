@@ -1,6 +1,6 @@
 # jwstpalettes
 
-jwstpalettes is an r package of colour palettes inspired by images from nasa's james webb space telescope.
+jwstpalettes is an r package of colour palettes inspired by images from nasa's james webb space telescope. v0.1.0, more palettes and features will be added soon.
 
 <h1>installation</h1>
 install using devtools <br><br>
