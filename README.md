@@ -10,7 +10,7 @@ devtools::install_github("perikarya/jwstpalettes")
 ```
 
 <h1>usage</h1>
-<b>jwstpalette(name, n, type):</b> assign colour palette <br><br>
+<b>jwstpalette(name, n, type):</b> where name is the name of the palette, n is the number of colours, and type can be "discrete" or "continuous" <br><br>
 
 <h1>examples</h1>
 
