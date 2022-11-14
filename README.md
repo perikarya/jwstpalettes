@@ -21,14 +21,22 @@ plot(dist ~ speed, data = cars, pch = 19, col = jwst_palette("carina", 3))
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/40226185/201569100-782bc3a9-ba4a-4f4a-b739-200977d41ad8.png">
 
 ```
-hist(cars$speed, breaks = 25, main = "", xlab="Speed", col = jwst_palette("tarantula2", 25, type="continuous"))
+hist(cars$speed, breaks = 25, main = "", xlab = "Speed", col = jwst_palette("tarantula2", 25, type = "continuous"))
 ```
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/40226185/201570499-720ed992-ce81-4cf8-a436-a5fc4f079542.png">
 
 ```
-levelplot(volcano, col.regions = jwst_palette("dimorphos", 100, type="continuous"))
+levelplot(volcano, col.regions = jwst_palette("dimorphos", 100, type = "continuous"))
 ```
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/40226185/201571760-4940f14a-f161-4066-88d2-af7fe19049c2.png">
+
+```
+ggplot(data = diamonds, aes(x = cut, group = clarity, fill = clarity)) +
+geom_density(adjust = 3, position = "stack", alpha = 0.8, color = NA) +
+scale_fill_discrete(type = jwst_palette("neptune")) + 
+theme(panel.grid.minor = element_blank())
+```
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/40226185/201614015-0e45ad64-1b03-49e6-a864-044c701094d6.png">
 
 <h1>current palettes</h1>
 
