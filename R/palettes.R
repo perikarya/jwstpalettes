@@ -20,10 +20,10 @@ jwst_palettes <- list(
 #'   \code{tarantula1}, \code{tarantula2},  \code{tarantula3},
 #'   \code{carina}, \code{neptune},  \code{dimorphos}, \code{dustring}
 #' @param type Type of palette, ie. "continuous" or "discrete". Continuous will automatically interpolate between the given colours to complete the palette.
-#' @importFrom graphics rgb rect par image text
+#' @importFrom rgb
 #' @return A vector of colours.
 #' @export
-#' @keywords colors
+#' @keywords colours
 #' @examples
 #' jwst_palette("neptune")
 #' jwst_palette("carina", 3)
