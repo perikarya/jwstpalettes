@@ -14,12 +14,14 @@ devtools::install_github("perikarya/jwstpalettes")
 
 <h1>examples</h1>
 
-```library(jwst_palettes)
+```
+library(jwst_palettes)
 plot(dist ~ speed, data = cars, pch = 19, col = jwst_palette("carina", 3))
 ```
 <img width="394" alt="image" src="https://user-images.githubusercontent.com/40226185/201569100-782bc3a9-ba4a-4f4a-b739-200977d41ad8.png">
 
-```hist(cars$speed, breaks = 25, main = "", xlab="Speed", col = jwst_palette("tarantula2", 25, type="continuous"))
+```
+hist(cars$speed, breaks = 25, main = "", xlab="Speed", col = jwst_palette("tarantula2", 25, type="continuous"))
 ```
 <img width="394" alt="image" src="https://user-images.githubusercontent.com/40226185/201570499-720ed992-ce81-4cf8-a436-a5fc4f079542.png">
 
