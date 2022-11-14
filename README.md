@@ -25,6 +25,11 @@ hist(cars$speed, breaks = 25, main = "", xlab="Speed", col = jwst_palette("taran
 ```
 <img width="394" alt="image" src="https://user-images.githubusercontent.com/40226185/201570499-720ed992-ce81-4cf8-a436-a5fc4f079542.png">
 
+```
+levelplot(volcano, col.regions = jwst_palette("dimorphos", 100, type="continuous"))
+```
+<img width="394" alt="image" src="https://user-images.githubusercontent.com/40226185/201571272-9a01528d-8321-4442-82e6-278db699355b.png">
+
 <h1>current palettes</h1>
 
 neptune <br/>
