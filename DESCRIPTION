@@ -1,0 +1,10 @@
+Package: jwstpalettes
+Type: Package
+Title: Colour palettes inspired by images from NASA's James Webb Space Telescope
+Version: 0.1.0
+Author: perikarya
+Maintainer: <somayra.mamsa@gmail.com>
+Description: A small collection of manually curated, discrete and continuous colour palettes inspired by images from NASA's James Webb Space Telescope.
+License: GNU General Public License	
+Encoding: UTF-8
+LazyData: true
