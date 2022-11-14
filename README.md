@@ -36,7 +36,7 @@ geom_density(adjust = 3, position = "stack", alpha = 0.8, color = NA) +
 scale_fill_discrete(type = jwst_palette("neptune")) + 
 theme(panel.grid.minor = element_blank())
 ```
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/40226185/201614015-0e45ad64-1b03-49e6-a864-044c701094d6.png">
+<img width="350" alt="image" src="https://user-images.githubusercontent.com/40226185/201614015-0e45ad64-1b03-49e6-a864-044c701094d6.png">
 
 <h1>current palettes</h1>
 
