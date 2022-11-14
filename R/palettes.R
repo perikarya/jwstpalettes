@@ -1,6 +1,4 @@
 #' List of palettes inspired by JWST images
-#'
-#' @export
 
 jwst_palettes <- list(
   tarantula1 = c("#77271a", "#832d1d", "#8b3729", "#9d4531", "#a94f31", "#af5730", "#b36131", "#b76b2e", "#be6f2f"),
@@ -11,6 +9,8 @@ jwst_palettes <- list(
   dimorphos = c("#301410", "#521f17", "#6e291e", "#9a3623", "#bf4330", "#d86e5b", "#ecb5ad", "#fcf3f4"),
   carina = c("#482d1f", "#9784d5", "#be7479", "#e8e2e8", "#bb8c6b", "#5f9fc3", "#aaa0ad", "#285284")
 )
+
+#' @export
 
 #' Palettes inspired by images from NASA's James Webb Space Telescope
 #'
@@ -54,3 +54,6 @@ jwst_palette <- function(name, n, type = c("discrete", "continuous")) {
   structure(out, class = "palette", name = name)
 
 }
+
+#' @export
+#' @importFrom grDevices rgb
