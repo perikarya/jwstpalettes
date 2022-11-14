@@ -28,15 +28,15 @@ hist(cars$speed, breaks = 25, main = "", xlab="Speed", col = jwst_palette("taran
 ```
 levelplot(volcano, col.regions = jwst_palette("dimorphos", 100, type="continuous"))
 ```
-<img width="394" alt="image" src="https://user-images.githubusercontent.com/40226185/201571272-9a01528d-8321-4442-82e6-278db699355b.png">
+<img width="150" alt="image" src="https://user-images.githubusercontent.com/40226185/201571272-9a01528d-8321-4442-82e6-278db699355b.png">
 
 <h1>current palettes</h1>
 
 neptune <br/>
-<img width="394" alt="image" src="https://user-images.githubusercontent.com/40226185/198862767-c4871c62-b075-4ffc-9b63-c2e63fc14594.png">
+<img width="150" alt="image" src="https://user-images.githubusercontent.com/40226185/198862767-c4871c62-b075-4ffc-9b63-c2e63fc14594.png">
 
 dimorphos <br/>
-<img width="394" alt="image" src="https://user-images.githubusercontent.com/40226185/198862770-1db034a7-c574-4dd3-ba36-bbd37546c73d.png">
+<img width="150" alt="image" src="https://user-images.githubusercontent.com/40226185/198862770-1db034a7-c574-4dd3-ba36-bbd37546c73d.png">
 
 carina <br/>
 <img width="394" alt="image" src="https://user-images.githubusercontent.com/40226185/198862789-2774392a-7afa-46b9-886f-e8ea35176f44.png">
