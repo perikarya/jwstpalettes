@@ -16,8 +16,8 @@ devtools::install_github("perikarya/jwstpalettes")
 
 ```library(jwst_palettes)
 plot(dist ~ speed, data = cars, pch = 19, col = jwst_palette("carina", 3))
-![image](https://user-images.githubusercontent.com/40226185/201569100-782bc3a9-ba4a-4f4a-b739-200977d41ad8.png)
 ```
+![image](https://user-images.githubusercontent.com/40226185/201569100-782bc3a9-ba4a-4f4a-b739-200977d41ad8.png)
 
 <h1>current palettes</h1>
 
