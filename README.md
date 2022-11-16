@@ -15,7 +15,7 @@ devtools::install_github("perikarya/jwstpalettes")
 <h1>examples</h1>
 
 ```
-library(jwst_palettes)
+library(jwstpalettes)
 plot(dist ~ speed, data = cars, pch = 19, col = jwst_palette("carina", 3))
 ```
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/40226185/201569100-782bc3a9-ba4a-4f4a-b739-200977d41ad8.png">
